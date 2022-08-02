@@ -1,4 +1,4 @@
-package project.todo.domain;
+package project.todo.v1.domain;
 
 
 import lombok.Getter;

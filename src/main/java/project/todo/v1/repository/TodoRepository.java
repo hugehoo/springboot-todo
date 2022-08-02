@@ -1,7 +1,7 @@
-package project.todo.repository;
+package project.todo.v1.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import project.todo.domain.Todo;
+import project.todo.v1.domain.Todo;
 
 public interface TodoRepository extends JpaRepository<Todo, Long> {
 

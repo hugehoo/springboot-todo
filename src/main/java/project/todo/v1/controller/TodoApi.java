@@ -1,14 +1,13 @@
-package project.todo.controller;
+package project.todo.v1.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 import project.todo.BaseController;
-import project.todo.domain.Todo;
-import project.todo.dto.TodoDto;
-import project.todo.repository.TodoRepository;
+import project.todo.v1.domain.Todo;
+import project.todo.v1.dto.TodoDto;
+import project.todo.v1.repository.TodoRepository;
 
 import java.util.List;
-import java.util.Map;
 
 @RestController
 @RequestMapping("todo")
