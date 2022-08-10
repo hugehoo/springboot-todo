@@ -24,4 +24,10 @@ public class TodoApi extends BaseController {
     public void createTodos(@RequestBody TodoDto todoDto) {
         service.createTodo(todoDto);
     }
+
+    @PatchMapping("/{todoId}")
+    public void updateTodo(@PathVariable Long todoId, @RequestBody TodoDto todoDto) {
+        service.updateTodo(todoId, todoDto);
+    }
+
 }
